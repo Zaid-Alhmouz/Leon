@@ -461,4 +461,33 @@ top:-40px;
     font-weight: bold;
     color: var(--main-color);
 }
+@media (max-width:767px)
+{
+    .landing {
+        width:100%;
+    }
+    .features .container{
+        width: 100%;
+    }
+    .services .container{
+        width:100%;
+        
+    }
+    .services .container .srv{
+        width:60%;
+        margin:0 50px 60px;
+    }
+    .portfolio .container{
+        width:100%;
+    }
+    .about .container{
+        width:100%;
+    }
+    .contact .container{
+        width:100%;
+    }
+    .footer{
+        width:100%;
+    }
+}
 /* End Footer */
